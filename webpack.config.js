@@ -72,7 +72,7 @@ module.exports = (env, argv) => {
         },
 
         {
-          test: /\.(jpe?g|png|gif)$/,
+          test: /\.(jpeg|png|gif)$/,
           loader: 'file-loader',
           options: {
             outputPath: 'assets/',
